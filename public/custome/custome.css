@@ -1,0 +1,10 @@
+.profile_image_size{
+    width: 80%;
+    height:35px;
+}
+.search_item{
+    display: none;
+}
+.button-right{
+    float: right;
+}

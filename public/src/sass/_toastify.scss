@@ -1,0 +1,15 @@
+.toastify {
+  @apply py-4 pl-4 pr-14 rounded-md;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  @media (max-width: $md) {
+    max-width: calc(100% - 30px);
+  }
+  .toast-close {
+    @apply text-transparent absolute inset-y-0 right-0 opacity-50 flex items-center;
+    &:before {
+      content: "×";
+      @apply block text-white text-3xl -mt-1.5 font-light;
+    }
+  }
+}
